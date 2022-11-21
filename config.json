@@ -109,9 +109,9 @@
     						},
     						{
     							"ValidationType": "PathExists",
-    							"ErrorMessage": "The path that was entered does not contain ( LEGOBatman2.exe )",
+    							"ErrorMessage": "The path that was entered does not contain ( LEGOBatman3.exe )",
     							"AllowedPathSuffixes": [
-    								"LEGOBatman2.exe"
+    								"LEGOBatman3.exe"
     							]
     						},
     						{
@@ -163,7 +163,7 @@
     				},
     				{
     					"SettingID": "dlc-the-squad",
-    					"SettingName": "The Heroes Villains Pack",
+    					"SettingName": "The Squad",
     					"Type": "Checkbox",
     					"DefaultValue": true,
     					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
