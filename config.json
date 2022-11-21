@@ -11,7 +11,7 @@
     	"ModCompatibilityVersion": "1.0",
     	"TargetApplicationVersion": "1.1",
     	"MinimumApplicationVersion": "1.1",
-    	"QuickBMSScript": "tools\\scripts\\quick_bms\\quick.bms",
+    	"QuickBMSScript": "tools\\scripts\\quick-bms\\dat.bms",
     	"QuickBMSExtractMode": "RootFolder",
     	"Categories": [{
     			"Category": "gameplay",
