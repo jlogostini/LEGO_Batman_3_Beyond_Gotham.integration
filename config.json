@@ -127,15 +127,64 @@
     		{
     			"Category": "Installed DLC",
     			"Settings": [{
-    					"SettingID": "dlc-the-heroes-character-pack",
-    					"SettingName": "The Heroes Character Pack",
+    					"SettingID": "dlc-man-of-steel",
+    					"SettingName": "Man of Steel",
     					"Type": "Checkbox",
     					"DefaultValue": true,
     					"Description": "When enabled, this will unpack the The Heroes Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
     				},
     				{
-    					"SettingID": "dlc-the-villains-character-pack",
+    					"SettingID": "dlc-dark-knight",
+    					"SettingName": "Dark Knight",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-arrow",
+    					"SettingName": "Arrow",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-batman-75th-anniversary",
+    					"SettingName": "Batman 75th Anniversary",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-batman-of-the-future-character-pack",
+    					"SettingName": "Batman of the Future Character Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-the-squad",
     					"SettingName": "The Heroes Villains Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "heroines-and-villainesses-character-pack",
+    					"SettingName": "Heroines and Villainesses Character Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-rainbow-character-pack",
+    					"SettingName": "Rainbow Character Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-bizarro",
+    					"SettingName": "Bizarro",
     					"Type": "Checkbox",
     					"DefaultValue": true,
     					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
