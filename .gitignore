@@ -1,2 +1,8 @@
 # Packages
 *Package/
+*.integration
+*.zip
+*.tar
+*.targz
+*.7z
+*.rar
