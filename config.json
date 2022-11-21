@@ -1,0 +1,157 @@
+﻿    {
+    	"IntegrationID": "lego-batman-2-dc-super-heroes",
+    	"Version": "1.3",
+    	"DisplayName": "LEGO Batman 2 DC Super Heroes",
+    	"DisplayIcon": "assets\\art\\icon-medium.png",
+    	"DisplayImage": "assets\\local-art\\english\\art-cover-vertical.png",
+    	"Author": {
+    		"Name": "JohnLogostini",
+    		"Role": "Integration Creator"
+    	},
+    	"ModCompatibilityVersion": "1.0",
+    	"TargetApplicationVersion": "1.1",
+    	"MinimumApplicationVersion": "1.1",
+    	"QuickBMSScript": "tools\\scripts\\quick_bms\\quick.bms",
+    	"QuickBMSExtractMode": "RootFolder",
+    	"Categories": [{
+    			"Category": "gameplay",
+    			"DisplayName": "Gameplay",
+    			"IconPath": "assets\\mod-types\\gameplay.svg"
+    		},
+    		{
+    			"Category": "character",
+    			"DisplayName": "Characters",
+    			"IconPath": "assets\\mod-types\\character.svg"
+    		},
+    		{
+    			"Category": "visual",
+    			"DisplayName": "Visuals",
+    			"IconPath": "assets\\mod-types\\visual.svg"
+    		},
+    		{
+    			"Category": "environment",
+    			"DisplayName": "Environments",
+    			"IconPath": "assets\\mod-types\\environment.svg"
+    		},
+    		{
+    			"Category": "vehicle",
+    			"DisplayName": "Vehicles",
+    			"IconPath": "assets\\mod-types\\vehicle.svg"
+    		},
+    		{
+    			"Category": "animation",
+    			"DisplayName": "Animations",
+    			"IconPath": "assets\\mod-types\\animation.svg"
+    		},
+    		{
+    			"Category": "audio",
+    			"DisplayName": "Audio",
+    			"IconPath": "assets\\mod-types\\audio.svg"
+    		},
+    		{
+    			"Category": "bugfix",
+    			"DisplayName": "Bug Fixes",
+    			"IconPath": "assets\\mod-types\\bugfix.svg"
+    		},
+    		{
+    			"Category": "ui",
+    			"DisplayName": "User Interface",
+    			"IconPath": "assets\\mod-types\\ui.svg"
+    		},
+    		{
+    			"Category": "item",
+    			"DisplayName": "Items",
+    			"IconPath": "assets\\mod-types\\item.svg"
+    		},
+    		{
+    			"Category": "misc",
+    			"DisplayName": "Miscellaneous",
+    			"IconPath": "assets\\mod-types\\misc.svg"
+    		}
+
+    	],
+    	"Settings": [{
+    			"Category": "Install Settings",
+    			"Settings": [{
+    					"SettingID": "game-source",
+    					"SettingName": "Game Source",
+    					"Description": "Allows you to set wear the game is from for platform specific mod patches",
+    					"Type": "Dropdown",
+    					"DefaultValue": "steam",
+    					"Options": [{
+    							"Text": "Steam",
+    							"Value": "steam"
+    						},
+    						{
+    							"Text": "GOG",
+    							"Value": "gog"
+    						},
+    						{
+    							"Text": "Epic Games",
+    							"Value": "epic-games"
+    						},
+    						{
+    							"Text": "No DRM",
+    							"Value": "no-drm"
+    						}
+    					]
+    				},
+    				{
+    					"SettingID": "install-path",
+    					"SettingName": "Game Installation Path",
+    					"Type": "text",
+    					"Description": "Sets the game installation path so mods can find the game",
+    					"DefaultValue": "",
+    					"Validations": [{
+    							"ValidationType": "Regex",
+    							"ErrorMessage": "Install path cannot contain the following symbols <>\"|?*",
+    							"Regex": "^[^<>\"|?*]+$"
+    						},
+    						{
+    							"ValidationType": "PathExists",
+    							"ErrorMessage": "The path that was entered does not contain ( LEGOBatman2.exe )",
+    							"AllowedPathSuffixes": [
+    								"LEGOBatman2.exe"
+    							]
+    						},
+    						{
+    							"ValidationType": "MandatoryField",
+    							"ErrorMessage": "Install path is a required field",
+    							"Required": true
+    						}
+    					],
+    					"Options": null
+    				}
+    			]
+    		},
+    		{
+    			"Category": "Installed DLC",
+    			"Settings": [{
+    					"SettingID": "dlc-the-heroes-character-pack",
+    					"SettingName": "The Heroes Character Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Heroes Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				},
+    				{
+    					"SettingID": "dlc-the-villains-character-pack",
+    					"SettingName": "The Heroes Villains Pack",
+    					"Type": "Checkbox",
+    					"DefaultValue": true,
+    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
+    				}
+    			]
+    		}
+    	],
+    	"SetupActions": [{
+    		"Action": "QuickBMSExtract",
+    		"DeleteWhenComplete": true,
+    		"UseAutoMapping": false,
+    		"TargetFiles": [
+    			"[Game]\\GAME.DAT",
+    			"[Game]\\GAME0.DAT",
+    			"[Game]\\GAME1.DAT",
+    			"[Game]\\GAME2.DAT"
+    		]
+    	}]
+    }
