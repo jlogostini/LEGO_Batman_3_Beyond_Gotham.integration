@@ -193,14 +193,26 @@
     		}
     	],
     	"SetupActions": [{
-    		"Action": "QuickBMSExtract",
-    		"DeleteWhenComplete": true,
-    		"UseAutoMapping": false,
-    		"TargetFiles": [
-    			"[Game]\\GAME.DAT",
-    			"[Game]\\GAME0.DAT",
-    			"[Game]\\GAME1.DAT",
-    			"[Game]\\GAME2.DAT"
-    		]
-    	}]
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"TargetFiles": [
+    				"[Game]\\GAME.DAT",
+    				"[Game]\\GAME0.DAT",
+    				"[Game]\\GAME1.DAT",
+    				"[Game]\\GAME2.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"TargetFiles": [
+    				"[Game]\\GAME.DAT",
+    				"[Game]\\GAME0.DAT",
+    				"[Game]\\GAME1.DAT",
+    				"[Game]\\GAME2.DAT"
+    			]
+    		}
+    	]
     }
