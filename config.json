@@ -207,11 +207,81 @@
     			"Action": "QuickBMSExtract",
     			"DeleteWhenComplete": true,
     			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-man-of-steel = false",
     			"TargetFiles": [
-    				"[Game]\\GAME.DAT",
-    				"[Game]\\GAME0.DAT",
-    				"[Game]\\GAME1.DAT",
-    				"[Game]\\GAME2.DAT"
+    				"[Game]\\DLC1.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-batman-75th-anniversary = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC2.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-dark-knight = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC3.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-batman-of-the-future-character-pack = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC4.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-rainbow-character-pack = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC5.DAT"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-arrow = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC6.DAT2"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-the-squad = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC7.DAT3"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.dlc-bizarro = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC8.DAT3"
+    			]
+    		},
+    		{
+    			"Action": "QuickBMSExtract",
+    			"DeleteWhenComplete": true,
+    			"UseAutoMapping": false,
+    			"Disabled": "$MOD.heroines-and-villainesses-character-pack = false",
+    			"TargetFiles": [
+    				"[Game]\\DLC9.DAT3"
     			]
     		}
     	]
