@@ -1,6 +1,6 @@
 ﻿    {
     	"IntegrationID": "lego-batman-3-beyond-gotham",
-    	"Version": "1.3",
+    	"Version": "1.1",
     	"DisplayName": "LEGO Batman 3 Beyond Gotham",
     	"DisplayIcon": "assets\\art\\icon-medium.png",
     	"DisplayImage": "assets\\local-art\\english\\art-cover-vertical.png",
@@ -9,8 +9,8 @@
     		"Role": "Integration Creator"
     	},
     	"ModCompatibilityVersion": "1.0",
-    	"TargetApplicationVersion": "1.6",
-    	"MinimumApplicationVersion": "1.6",
+    	"TargetApplicationVersion": "1.1",
+    	"MinimumApplicationVersion": "1.1",
     	"QuickBMSScript": "tools\\scripts\\quick_bms\\quick.bms",
     	"QuickBMSExtractMode": "RootFolder",
     	"Categories": [{
