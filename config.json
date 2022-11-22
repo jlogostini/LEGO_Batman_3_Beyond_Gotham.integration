@@ -188,30 +188,11 @@
     					"Type": "Checkbox",
     					"DefaultValue": true,
     					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
-    				},
-    				{
-    					"SettingID": "skip-unpack",
-    					"SettingName": "Skip Unpacking Non DLC .DAT Files",
-    					"Type": "Checkbox",
-    					"DefaultValue": false,
-    					"Description": "When enabled, this will unpack the The Villains Character Pack so it can be modded if you do not have this DLC installed wean this is checked no mods will install"
     				}
     			]
     		}
     	],
     	"SetupActions": [{
-    			"Action": "QuickBMSExtract",
-    			"DeleteWhenComplete": true,
-    			"UseAutoMapping": false,
-    			"Disabled": "$MOD.skip-unpack = true",
-    			"TargetFiles": [
-    				"[Game]\\GAME.DAT",
-    				"[Game]\\GAME0.DAT",
-    				"[Game]\\GAME1.DAT",
-    				"[Game]\\GAME2.DAT"
-    			]
-    		},
-    		{
     			"Action": "QuickBMSExtract",
     			"DeleteWhenComplete": true,
     			"UseAutoMapping": false,
