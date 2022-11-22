@@ -1,9 +1,0 @@
-DLC1.DAT = Man of Steel
-DLC2.DAT = Batman 75th Anniversary
-DLC3.DAT = The Dark Knight
-DLC4.DAT = Batman of the Future Character Pack
-DLC5.DAT = Rainbow Character Pack
-DLC6.DAT2 = Arrow
-DLC7.DAT3 = The Squad
-DLC8.DAT3 = Bizarro
-DLC9.DAT3 = Heroines and Villainesses Character Pack
